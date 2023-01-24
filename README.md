@@ -6,7 +6,7 @@
 <p>For WMI - <code>pip install wmi</code></p>
 <p>For pyNVML - <code>pip install nvidia-ml-py</code></p>
 
-<p>Then you go on <p>command prompt</p> inside the project directory and run <code>sys-monitor-app.py</code> and watch the magic o_O</p>
+<p>Then you open <b>command prompt</b> (or any terminal you like) inside the project's directory and run <code>sys-monitor-app.py</code> and watch the magic o_O</p>
 
 <p>This only works on Windows OS and NVIDA GPUS, adaptations to Linux and RADEON Graphics may come later, if a single soul ask for it.</p>
 

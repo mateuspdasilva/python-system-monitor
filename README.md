@@ -4,7 +4,7 @@
 
 <p>For Python - <a>https://www.python.org/downloads/</a> or go to Microsoft Store (it comes with <b>pip</b>)</p>
 <p>For WMI - <code>pip install wmi</code></p>
-<p>For pyNVML - <code>pip install nvidia-ml-py</code></p>
+<p>For pyNVML - <code>pip install pynvml</code></p>
 
 <p>Then you open <b>command prompt</b> (or any terminal you like) inside the project's directory and run <code>sys-monitor-app.py</code> and watch the magic o_O</p>
 

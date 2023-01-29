@@ -6,6 +6,7 @@ wmi_instance = wmi.WMI()
 pynvml.nvmlInit()
 
 # CPU information
+
 print(f"--------------------------")
 print(f"- Processor")
 print(f"--------------------------")
@@ -43,6 +44,12 @@ try:
         print("Processor threads not available.")
 
     try:
+        processor_cache_memory = (processor.L2CacheSize + processor.L3CacheSize) / 1000
+        print(f"Processor cache memory: {processor_cache_memory}MB")
+    except:
+        print("Processor cache memory not available.")
+
+    try:
         processor_capacity = processor.DataWidth
         print(f"Processor Capacity: {processor_capacity} bits")
     except:
@@ -70,6 +77,12 @@ try:
         print(f"Graphic Card memory size: {memory_size:.0f}GB")
     except:
         print("Could not get GPU memory size information.")
+
+    try:
+        memory_clock = pynvml.nvmlDeviceGetClockInfo(handle, pynvml.NVML_CLOCK_MEM)
+        print(f"Graphic Card memory clock: {memory_clock}MHz")
+    except:
+        print("Could not get GPU memory clock information.")
 
     try:
         gpu_clock_speed = pynvml.nvmlDeviceGetClockInfo(handle, pynvml.NVML_CLOCK_GRAPHICS)

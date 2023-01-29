@@ -11,4 +11,4 @@
 <p>This only works on Windows OS and NVIDA GPUS, adaptations to Linux and RADEON Graphics may come later, if a single soul ask for it.</p>
 
 <h4>This was my output (I know I need some upgrades)</h4>
-<img src="https://user-images.githubusercontent.com/99037253/215294166-8ce8b658-9504-40d4-afef-addf303896a3.png"/>
+<img src="https://user-images.githubusercontent.com/99037253/215358410-4312a620-79c3-4492-9015-8f367dca5cbc.png"/>

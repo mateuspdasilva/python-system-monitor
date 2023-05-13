@@ -1,4 +1,4 @@
-# No secrets in this humble README 
+# sys-monitor-app.py
 
 <h3>You gotta have Python, pip, WMI and pyNVML installed in your machine.</h3>
 
